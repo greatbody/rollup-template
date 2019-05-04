@@ -1,6 +1,12 @@
 # rollup-template
 A template to build opensource library
 
+# Suit for VSCode only
+
+Tested vscode version:
+
+- Version 1.33.1 (1.33.1)
+
 # Steps to use this project
 
 ## Clone
