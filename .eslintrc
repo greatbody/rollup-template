@@ -15,5 +15,10 @@
   "plugins": ["jest"],
   "env": {
     "jest/globals": true
+  },
+  "settings": {
+    "import/resolver": {
+      "jest": {}
+    }
   }
 }
