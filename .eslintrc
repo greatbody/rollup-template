@@ -18,7 +18,12 @@
   },
   "settings": {
     "import/resolver": {
-      "jest": {}
+      "jest": {},
+      "alias": {
+        "map": [
+          ["^@.*", "./src"]
+        ]
+      }
     }
   }
 }
