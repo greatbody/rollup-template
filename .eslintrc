@@ -6,10 +6,14 @@
     "ecmaFeatures": {
     }
   },
-  "extends": ["airbnb-base"],
+  "extends": ["airbnb-base", "plugin:jest/recommended"],
   "rules": {
     "semi": ["error", "never"],
     "comma-dangle": ["error", "always-multiline"],
     "no-console": 0
+  },
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
   }
 }
