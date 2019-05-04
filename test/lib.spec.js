@@ -1,4 +1,4 @@
-import dis from '../src/lib'
+import dis from '@/lib'
 
 describe('test demo', () => {
   it('demo should console log output', () => {
